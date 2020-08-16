@@ -1,0 +1,5 @@
+{
+  "awaiting": "[name='shipping_address[firstname]']",
+  "prefetch": "function(target) {return {from_bound: {'value': 'region'},to_bound: {'value': 'region'},'query': ',}}",
+  "callback": "function(suggest, helper, element) {return helper('region_type.region', suggest);}"
+}
